@@ -1,0 +1,123 @@
+/*fonts*/
+@font-face{
+	font-family: 'PoppinsBold ', sans-serif;
+	src: url("fonts/Poppins-Bold.ttf");	
+}
+@font-face{
+	font-family: 'PoppinsMedium ', sans-serif;
+	src: url("fonts/Poppins-Medium.ttf");
+}
+@font-face{
+	font-family: 'PoppinsRegular ', sans-serif;
+	src: url("fonts/Poppins-Regular.ttf");
+}
+@font-face{
+	font-family: 'RobotoBold', sans-serif;
+	src: url('fonts/Roboto-Bold.ttf');	
+}
+@font-face{
+	font-family: 'RobotoMedium ', sans-serif;
+	src: url("fonts/Roboto-Medium.ttf");
+}
+@font-face{
+	font-family: 'RobotoRegular ', sans-serif;
+	src: url("fonts/Roboto-Regular.ttf");
+}
+
+
+/*common css start*/
+body{
+	font-family: 'PoppinsRegular ', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+/*common css end*/
+/*Header start*/
+header{
+	background-color: #F0FFF0;
+	padding:  15px 0 0;
+	
+
+}
+.n_btn{}
+.logo{}
+.menu ul li a{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+    color: #000000 !important;
+    padding: 0 20px !important;
+}
+.menu ul li a:hover{
+	color: #FD511A !important;
+}
+.btn_nav{
+	width: 105px;
+	height: 38px;
+}
+.btn_c{
+	font-family: 'PoppinsRegular ', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	color: #FFFFFF;
+	background-color: #21B573;
+	border-radius: 16px;
+}
+.btn_c:hover{
+	background-color: black;
+	color: white;
+}	
+
+
+/*Header end*/
+
+/*banner start*/
+.banner{
+	background-color: #F0FFF0;
+	padding: 30px 0 120px;
+}
+.b_text{
+	padding: 0 244px 0 0;
+}
+.b_light{
+	line-height: 24px;
+    color: #FD511A;
+}
+.b_h1{
+	margin: 10px 0 20px;
+	font-size: 48px;
+	font-weight: 700;	
+	line-height: 65px;
+	color: #000000;
+}
+.b_h1 span{
+	color: #21B573;;
+}
+.b_p{
+	line-height: 36px;
+}
+.btn_banner{
+	margin-top: 15px;
+	display: flex;
+	width: 155px;
+	height: 45px;
+	align-items: center;
+	justify-content: center;
+}
+.b_img{
+}
+.b_img img{
+   
+}
+
+
+/*banner end*/
+/* ------------------------------- particle js ------------------------------ */
+.particles-js-canvas-el{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
